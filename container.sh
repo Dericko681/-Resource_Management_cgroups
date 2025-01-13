@@ -25,5 +25,5 @@ echo " containerstack/cpustress"
 docker pull containerstack/cpustress
 
 #step5: simulating heavy cpu usage
-echo "stressing the cpu with cpustress"
-docker run -it --name cpustress --rm containerstack/cpustress --cpu 4 --timeout 60s --metrics-brief
+# echo "stressing the cpu with cpustress"
+# docker run -it --name stress-test --cpus=".25" --memory="512m" containerstack/cpustress -c 8 -m 1 --vm-bytes 300M -t 60s
