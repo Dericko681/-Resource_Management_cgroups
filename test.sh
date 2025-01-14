@@ -8,8 +8,12 @@ if ! command -v docker &> /dev/null; then
 fi
 
 #build the docekr image
-docker build -t resource-intensive   || { echo "Failed to build Docker image."; exit 1; }
-
+docker build -t resource-intensive .
+if [ $? -eq 0 ]; then
+  echo "build process was successful"
+else
+  echo "build process was not successful"
+fi
 #run the docker image
 docker run --cpu-period=100000 --cpu-quota=25000 --memory=512m resource-intensive
 echo "Script execution completed successfully."
