@@ -11,16 +11,6 @@
 4. Use tools like `htop` and `vmstat` to monitor resource consumption.
 5. Log and summarize the performance in a report.
 
-To begin
-
-clone this repository to you terminal by running
-```sh
-git clone https://github.com/Dericko681/Resource_Management_cgroups.git
-```
-
-change your working directory to the repository\
-**Resource_Management_cgroups**
-
 To Create a Docker container that simulates heavy CPU and memory usage study and run the script in container.sh
 
 ```sh
