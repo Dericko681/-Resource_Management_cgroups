@@ -1,4 +1,4 @@
-# -Resource_Management_cgroups
+# Resource_Management_cgroups
 **Goal:** Use `cgroups` to manage system resources for Docker containers under stress.
 
 **Requirements:**
@@ -15,12 +15,12 @@ To begin
 
 clone this repository to you terminal by running
 ```sh
-git clone https://github.com/Dericko681/-Resource_Management_cgroups.git
+git clone https://github.com/Dericko681/Resource_Management_cgroups.git
 ```
-change your working directory to the repository 
-```sh
--Resource_Management_cgroups
-```
+
+change your working directory to the repository\
+**Resource_Management_cgroups**
+
 To Create a Docker container that simulates heavy CPU and memory usage study and run the script in container.sh
 
 ```sh
