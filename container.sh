@@ -25,8 +25,8 @@ multipass exec $INSTANCE_NAME -- bash -c "sudo apt update && sudo apt install -y
 echo "pulling ubuntu and stress-ng"
 docker pull ubuntu
 
-echo " containerstack/cpustress"
-docker pull containerstack/cpustress
+# echo " containerstack/cpustress"
+# docker pull containerstack/cpustress
 
 #step5: simulating heavy cpu usage
 # echo "stressing the cpu with cpustress"
