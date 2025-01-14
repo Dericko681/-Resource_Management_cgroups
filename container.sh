@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 # Enable error handling
-set -e
+# set -e
 
 # Step 1: Install Multipass (if not already installed)
 if ! command -v multipass &> /dev/null; then
