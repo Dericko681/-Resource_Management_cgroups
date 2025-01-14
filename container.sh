@@ -19,7 +19,7 @@ multipass launch docker --name $INSTANCE_NAME
 
 # Step 3: Install Docker inside the Multipass instance
 echo "Installing Docker inside the Multipass instance..."
-multipass exec $INSTANCE_NAME -- bash -c "sudo apt update && sudo apt install -y docker.io && git clone https://github.com/Dericko681/Resource_Management_cgroups.git && sudo docker pull ubuntu"
+multipass exec $INSTANCE_NAME -- bash -c "sudo apt update && sudo apt install -y docker.io && git clone https://github.com/Dericko681/Resource_Management_cgroups.git && sudo docker pull ubuntu && cd Resource_Management_cgroups"
 
 #step4: installing the docker images
 # echo "pulling ubuntu 
